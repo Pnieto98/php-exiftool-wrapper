@@ -19,6 +19,7 @@ class ExiftoolRunner
     }
 
     /**
+     * Run process
      * @return string
      */
     public function run(): string
@@ -30,6 +31,10 @@ class ExiftoolRunner
         return $this->process->getOutput();
     }
 
+    /**
+     * Get command exiftool for binary
+     * @return mixed|string
+     */
     public static function getCommand()
     {
         if (isset($_ENV['EXIFTOOL_BINARY'])) {
