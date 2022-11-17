@@ -1,0 +1,22 @@
+{
+    "name": "exiftool/wrapper",
+    "type": "project",
+    "description": "Wrapper for exiftool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pedro nieto",
+            "email": "pedron1998@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "symfony/process": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExiftoolWrapper\\": "src/"
+        }
+    }
+}
