@@ -7,9 +7,6 @@ PHP wrapper around the `exiftool` command
 ## Table of contents:
 - [Installation](#installation)
 - [How to use](#how-to-use)
-- [Specials types](#specials-types)
-- [Extra](#extra)
-- [License](#license)
 
 ## Installation
 
