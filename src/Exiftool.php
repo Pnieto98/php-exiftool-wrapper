@@ -2,7 +2,7 @@
 
 namespace ExiftoolWrapper;
 
-use ExiftoolWrapper\runner\ExiftoolRunner;
+use ExiftoolWrapper\Runner\ExiftoolRunner;
 use ExiftoolWrapper\Exception\ExiftoolException;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 use Symfony\Component\Process\Process;
