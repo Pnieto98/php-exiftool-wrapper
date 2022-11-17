@@ -1,6 +1,6 @@
 {
     "name": "exiftool/wrapper",
-    "type": "project",
+    "type": "library",
     "description": "Wrapper for exiftool",
     "license": "MIT",
     "authors": [
