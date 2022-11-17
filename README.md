@@ -30,7 +30,7 @@ $ brew install exiftool
 To use this library install it through [Composer](https://getcomposer.org/), run:
 
 ```bash
-$ composer require mhor/php-mediainfo
+$ composer require exiftool/wrapper
 ```
 
 ## How to use
