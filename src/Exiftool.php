@@ -95,7 +95,7 @@ class Exiftool
             $explodeData = explode(":", $data);
             $formatKey = str_replace(' ', '_', strtolower(trim($explodeData[0])));
             if(!empty($formatKey)) {
-                $formatData[$formatKey] = @$explodeData[1];
+                $formatData[$formatKey] = ltrim(@$explodeData[1]);
             }
         }
         return $formatData;
