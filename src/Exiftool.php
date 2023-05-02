@@ -89,15 +89,6 @@ class Exiftool
     private function buildParseMetaData(string $filePath, array $arguments = []): array
     {
         $metaData = $this->outputMetadata($filePath, $arguments);
-        $arrayData = explode(PHP_EOL, $metaData);
-        $formatData = array();
-        foreach ($arrayData as $data) {
-            $explodeData = explode(":", $data);
-            $formatKey = str_replace(' ', '_', strtolower(trim($explodeData[0])));
-            if(!empty($formatKey)) {
-                $formatData[$formatKey] = ltrim(@$explodeData[1]);
-            }
-        }
-        return $formatData;
+        return json_decode($metaData);
     }
 }
